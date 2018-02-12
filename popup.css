@@ -1,0 +1,33 @@
+html {
+  overflow-x: hidden;
+}
+
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  width: 95%;
+  margin-top: 8px;
+  margin-bottom: 8px;
+  margin-left: 4px;
+  margin-right: 8px;
+  white-space: nowrap;
+}
+
+h3 {
+  vertical-align: middle;
+}
+
+hr.styled {
+  border: 0;
+  height: 1px;
+  background: #333;
+  background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+ul {
+  list-style-type: none;
+  -webkit-padding-start: 0px;
+}
+
+li {
+  padding-bottom: 2px;
+}
