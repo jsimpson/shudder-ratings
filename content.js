@@ -3,7 +3,6 @@ chrome.runtime.onMessage.addListener(
     if (request.message === "clicked_browser_action") {
       var title = document.getElementsByClassName('series-title')[0].innerText;
       var year = document.getElementsByClassName('series-year')[0].innerText.split(' ')[0];
-      console.log('content: ' + title + ' ' + year);
       sendResponse({ title: title, year: year });
     }
   }
